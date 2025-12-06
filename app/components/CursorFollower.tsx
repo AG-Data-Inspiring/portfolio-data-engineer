@@ -144,7 +144,7 @@ export default function CursorFollower() {
   return (
     <canvas
       ref={canvasRef}
-      className="pointer-events-none fixed inset-0 z-40"
+      className="pointer-events-none fixed inset-0 z-[100]"
       style={{ top: 0, left: 0 }}
     />
   );

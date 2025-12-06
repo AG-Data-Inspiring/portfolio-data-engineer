@@ -16,7 +16,7 @@ export default function Home() {
             Exploring data, building insights, and crafting solutions through analytics and engineering.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Link href="/projects" className="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
+            <Link href="/projects" className="border border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
               View Projects
             </Link>
             <Link href="/story" className="border border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition">
